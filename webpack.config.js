@@ -16,7 +16,7 @@ module.exports = {
       Examples: 'app/components/Examples.jsx',
       Contact: 'app/components/Contact.jsx',
       openWeatherMap: 'app/api/openWeatherMap.jsx',
-      devtool: 'cheap-module-eval-source-map'
+      devtool: 'eval-source-map'
 
     },
     extensions: ['', '.js', '.jsx']
