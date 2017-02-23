@@ -9,7 +9,8 @@ module.exports = {
 
     return axios.get(requestUrl).then(function (res) {
       if (res.data.cod && res.data.message) {
-        throw new Error(res.data.message);
+      //  throw new Error(res.data.message);
+       throw new Error('Unable to fetch weather data for the city');
       } else {
         return res.data.main.temp;
       }
